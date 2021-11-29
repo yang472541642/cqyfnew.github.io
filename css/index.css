@@ -1,0 +1,25 @@
+.hide {
+	display:none;
+}
+.bc {
+	background-color: #F6A52F;
+}
+
+.weui-cell {
+	background-color: #F6A52F;
+}
+.weui-panel {
+	background-color: #F6A52F;
+}
+.weui-form {
+	background-color: #F6A52F;
+}
+.weui-form__text-area {
+
+}
+.red {
+	color: red;
+}
+.weui-dialog {
+	background-color: #F6A52F;
+}
