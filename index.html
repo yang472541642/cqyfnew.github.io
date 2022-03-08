@@ -348,7 +348,7 @@
 
           switch (zhiwei) {
           case "店经理":
-            total = totalnengli * 0.6 + totaljineng * 0.4;
+            total = Math.ceil(totalnengli * 0.6 + totaljineng * 0.4);
             if (total < 8) {
               pinggujieguo = 1;
             }
@@ -363,7 +363,7 @@
             }
             break;
           case "营业员":
-            total = totalnengli * 0.5 + totaljineng * 0.5;
+            total = Math.ceil(totalnengli * 0.5 + totaljineng * 0.5);
             if (total < 7.1) {
               pinggujieguo = 1;
             }
