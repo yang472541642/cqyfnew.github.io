@@ -78,7 +78,7 @@
                       <select class="weui-select" name="zhiwei" id="zhiwei">
                         <option value="0" selected disabled style="display: none">请选择</option>
                         <option value="店经理">店经理</option>
-                        <option value="营业员">营业员</option>
+                        <option value="店员">店员</option>
                       </select>
                     </div>
                   </div>
@@ -279,7 +279,7 @@
             $("#js_luojics").removeClass("hide");
             break;
 
-          case "营业员":
+          case "店员":
             $("#xiangguan").append('<option  value="1">无</option>');
             $("#xiangguan").append('<option value="2">1年以下</option>');
             $("#xiangguan").append('<option value="3">1-2年</option>');
@@ -362,7 +362,7 @@
               pinggujieguo = 4;
             }
             break;
-          case "营业员":
+          case "店员":
             total = Math.ceil(totalnengli * 0.5 + totaljineng * 0.5);
             if (total < 7.1) {
               pinggujieguo = 1;
@@ -571,7 +571,7 @@
               dengji = '高级';
             }
             break;
-          case "营业员":
+          case "店员":
 
             if (nenglipinggu == 2) {
               //合格
